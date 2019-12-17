@@ -31,3 +31,12 @@ Definition:
     mov rax, %1
     call _printRAXDigit
 %endmacro
+
+%macro printDigitSum 2
+    mov rax, %1
+    add rax, %2
+    call _printRAXDigit
+%endmacro
+_start:
+    printDigitSum 3, 2
+    exit
