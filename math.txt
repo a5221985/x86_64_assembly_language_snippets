@@ -1,0 +1,9 @@
+add a, b
+sub a, b
+mul reg, imul - signed
+div reg, idiv - signed
+neg reg
+inc reg
+dec reg
+adc a, b ; a = a + b + CF
+sbb a, b ; a = a - b - CF

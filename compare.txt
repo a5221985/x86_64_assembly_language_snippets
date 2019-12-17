@@ -1,0 +1,3 @@
+a == b, ZF = 1
+a != b, ZF = 0
+SF = msb(a - b)

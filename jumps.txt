@@ -1,0 +1,12 @@
+je - a = b
+jne - a != b
+jg - a > b
+jge - a >= b
+jl - a < b
+jle - a <= b
+jz - a = 0
+jnz - a != 0
+jo - overflow
+jno - overflow did not occur
+js - jump is signed
+jns - jump if not signed

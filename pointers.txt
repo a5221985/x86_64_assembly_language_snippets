@@ -1,0 +1,10 @@
+rip - Index pointer - points to next address to be executed in the control flow
+rsp - Stack pointer - Points to the top address of the stack
+rbp - Stack base pointer - Points to the bottom of the stack
+
+
+rip:
+holds address of next instruction executed
+once instruction is executed, rip is incremented by 1
+
+[rbx] - value pointed to by rbx 
