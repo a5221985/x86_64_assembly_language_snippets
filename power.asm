@@ -6,7 +6,7 @@ power:
 	mov	rax,	1
 	ret
 calculate:
-	mov	rax,	1	; if b > 0, m <- a
+	mov	rax,	1	; if b > 0, m <- 1
 loop:
 	mul	rdi		; m <- m * a
 	dec	rsi		; b <- b - 1	
