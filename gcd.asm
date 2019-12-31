@@ -1,5 +1,5 @@
 ; ------------------------------------------------------
-; Function to calculate GCD of two numbers
+; Function to calculate GCD of two numbers a and b
 ; condition: a < b
 ; Prototype:
 ;	uint64_t gcd(uin64_t a, uint64_t b);
